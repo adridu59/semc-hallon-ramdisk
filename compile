@@ -1,0 +1,10 @@
+GZIP Ramdisk
+------------
+
+find . | cpio -o -H newc | gzip > ramdisk.img
+
+
+LZIP Ramdisk
+------------
+
+find . | cpio -o -H newc | lzip > ramdisk.img
