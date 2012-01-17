@@ -1,10 +1,11 @@
 GZIP Ramdisk
 ------------
 
-find . | cpio -o -H newc | gzip > ramdisk.img
+find . | cpio -o -H newc | gzip > ramdisk.cpio.gz
 
 
-LZIP Ramdisk
+LZMA Ramdisk
 ------------
 
-find . | cpio -o -H newc | lzip > ramdisk.img
+*optional* sudo apt-get install lzip
+find . | cpio -o -H newc | lzip > ramdisk.cpio.lz
