@@ -1,6 +1,6 @@
-adridu59 Ramdisk
+adridu59 Ramdisk - based on DoomKernel ramdisk
 
-* based on DoomKernel ramdisk
-* autoroot added (RootXperia)
 * build command for lzip added
-
+* bootsounds removed
+* updated : Superuser 3.0.7 & su 3.0.3.2
+* CPU bootup freqs matching acpuclock
