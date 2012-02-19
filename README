@@ -22,6 +22,4 @@ sh compile_lzma.sh
 sh compile_lzo.sh
 
 // XZ
-// YOU NEED xz-utils :
-// sudo apt-get install xz-utils
 sh compile_xz.sh
