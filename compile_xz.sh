@@ -1,4 +1,6 @@
-rm -r temp
+if [ -d "temp" ] ; then
+	rm -r temp
+fi
 mkdir temp
 cp -r NEO/* temp/.
 cd temp
