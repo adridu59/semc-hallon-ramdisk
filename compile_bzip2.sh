@@ -9,3 +9,4 @@ done
 find . | cpio -o -H newc | bzip2 > ../ramdisk.cpio.bz2
 cd ..
 rm -r temp
+echo "Created."

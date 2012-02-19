@@ -9,3 +9,4 @@ done
 find . | cpio -o -H newc | lzma > ../ramdisk.cpio.lzma
 cd ..
 rm -r temp
+echo "Created."
